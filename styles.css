@@ -1,0 +1,21 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: min(500px,80%);
+    height: min(500px,90%);
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+span{
+    display: block;
+    height: 50%;
+    width: 50%;
+    border: 2px solid green;
+
+}
